@@ -1,0 +1,88 @@
+{
+    "user" : "lillo",
+    "bought" : 0,
+    "start" : 1529877600,
+    "end" : 1530482399,
+    "archive" : [
+        {
+            "time" : 1529963999,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.65745, 
+                    45.072174
+                ]
+            }
+        },
+        {
+            "time" : 1529974799,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.664704, 
+                    45.071144
+                ]
+            }
+        },
+        {
+            "time" : 1530097199,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.655207, 
+                    45.069523
+                ]
+            }
+        },
+        {
+            "time" : 1530124336,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.659109, 
+                    45.064422
+                ]
+            }
+        },
+        {
+            "time" : 1530188979,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.670009, 
+                    45.064362
+                ]
+            }
+        },
+        {
+            "time" : 1530203379,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.663207, 
+                    45.054429
+                ]
+            }
+        },
+        {
+            "time" : 1530289779,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.674669, 
+                    45.050495
+                ]
+            }
+        },
+        {
+            "time" : 1530354579,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.685655, 
+                    45.050677
+                ]
+            }
+        }
+    ]
+}

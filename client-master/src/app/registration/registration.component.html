@@ -1,0 +1,24 @@
+<div class = "registration">
+	<h1 align="center ">Register a new user!</h1>
+
+	<app-error [errorMessage]="errorMsg" (changeErrorMessage)="cgErrorMsg($event)"></app-error>
+
+	<form (keyup.enter)="doRegistration(usr.value,psw.value)">
+
+		<mat-form-field>
+	    	<input matInput #usr placeholder="username" required>
+	  	</mat-form-field>
+
+		<br>
+
+		<mat-form-field>
+		    <input matInput #psw placeholder="password" type="password" required>
+	  	</mat-form-field>
+
+		<br>
+
+	</form>
+
+</div>
+
+<button mat-raised-button (click)="doRegistration(usr.value,psw.value)">Register</button>

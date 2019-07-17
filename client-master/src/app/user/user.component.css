@@ -1,0 +1,33 @@
+html, body { height: 100%; }
+
+.drop-zone { 
+	border: dotted 3px lightgray; 
+	width: 300px; 
+	height: 100px;
+	margin:0 auto;
+}
+.nv-file-over { border: dotted 3px red; } /* Default class applied to drop zones on over */
+
+.upload {
+	margin-bottom: 50px;
+}
+
+table { width: 100%; }
+td { width: 50%; }
+
+.container { width: 1000px; }
+
+.archive {
+	border: 1px solid black;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.archives {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	margin-top: 50px;
+}
+
+.remove { color: red; cursor: pointer; }

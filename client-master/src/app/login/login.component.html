@@ -1,0 +1,23 @@
+<div class = "login">
+
+	<h1 align="center ">Login</h1>
+
+	<app-error [errorMessage]="errorMsg" (changeErrorMessage)="cgErrorMsg($event)"></app-error>
+
+	<form (keyup.enter)="doLogin(usr.value,psw.value)">
+
+	<mat-form-field>
+    	<input matInput #usr placeholder="Username" required>
+  	</mat-form-field>
+
+	<br>
+
+	<mat-form-field>
+	    <input matInput #psw placeholder="Password" type="password" required>
+  	</mat-form-field>
+
+</form>
+</div>
+
+<button mat-raised-button (click)="doLogin(usr.value,psw.value)">Login</button>
+<button mat-raised-button routerLink="/registration">Register</button>

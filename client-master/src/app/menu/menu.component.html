@@ -1,0 +1,4 @@
+<div id="menu" *ngIf="show" align="left">
+	<div class="el" *ngIf="loggedUser"><b>{{loggedUser}}</b> | </div>
+	<div *ngFor="let e of menu" class="el" [routerLink]="e">{{e}}</div>
+</div>

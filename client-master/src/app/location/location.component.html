@@ -1,0 +1,94 @@
+<h1>Buy new archives</h1>
+
+<app-error [errorMessage]="errorMsg" (changeErrorMessage)="cgErrorMsg($event)"></app-error>
+<div class="inputSearch">
+
+
+	<div class="datepicker">
+
+		<mat-form-field>
+			<input matInput [matDatepicker]="picker1" placeholder="Start date" [formControl]="dateStart" [max]="dateEnd.value">
+			<mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+			<mat-datepicker #picker1></mat-datepicker>
+
+		</mat-form-field>
+
+		<mat-form-field>
+			<input matInput placeholder="Hour" [(ngModel)]="startTimeH"/>
+		</mat-form-field>
+		<mat-form-field>
+			<input matInput placeholder="Minute" [(ngModel)]="startTimeM"/>
+		</mat-form-field>
+
+		<br />
+
+		<mat-form-field>
+			<input matInput [matDatepicker]="picker2" placeholder="End date" [formControl]="dateEnd" [min]="dateStart.value">
+			<mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+			<mat-datepicker #picker2></mat-datepicker>
+		</mat-form-field>
+
+		<mat-form-field>
+			<input matInput  placeholder="Hour" [(ngModel)]="endTimeH"/>
+		</mat-form-field>
+		<mat-form-field>
+			<input matInput placeholder="Minute" [(ngModel)]="endTimeM"/>
+		</mat-form-field>
+
+	</div>
+
+
+	<mat-form-field class="inputSearch">
+	  <mat-select placeholder="Users" [formControl]="toppings" multiple>
+	    <mat-option *ngFor="let user of users" [value]="user">{{user}}</mat-option>
+	  </mat-select>
+  </mat-form-field>
+
+</div>
+
+<button mat-raised-button class="inputSearch" (click)="getArchives()">Load archives</button>
+
+<div class="searchResult">
+
+	<div *ngIf="retrievedUsers" class="summ">
+		<label>Archives owners: </label>
+		<span class="summ-item matchusr" *ngFor="let ruser of retrievedUsers">{{ruser}}</span>
+		<br>
+		<label>Measures retrieved:</label>
+		<span class="summ-item">{{numRetrievedPositions}}</span>
+	</div>
+
+	<div class="searchres">
+
+		<div class="timeline">
+			<ngx-charts-bubble-chart
+			[results]="timestamps"
+			[yScaleMin]="yScaleMin"
+			[yScaleMax]="yScaleMax"
+			[xScaleMin]="xScaleMin"
+			[xScaleMax]="xScaleMax"
+			[xAxis]="yAxis"
+			[xAxis]="xAxis"
+			[xAxisTickFormatting] = "xAxisTickFormatting"
+			[yAxisTickFormatting] = "yAxisTickFormatting"
+			[tooltipDisabled]="tooltipDisabled"
+			[customColors]="customColors"
+			[scheme]="colorScheme"
+			>
+			</ngx-charts-bubble-chart>
+		</div>
+
+		<div class="map"
+			leaflet
+			leafletDraw
+			[leafletOptions]="options"
+			[leafletDrawOptions]="drawOptions"
+			[leafletLayers]="layers"
+			(leafletMapReady)="onMapReady($event)">
+		</div>
+
+	</div>
+
+<div>
+
+<button mat-raised-button (click)="openDialog()" color="primary" *ngIf="buyButton">Buy</button>

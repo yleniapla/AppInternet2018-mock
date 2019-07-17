@@ -1,0 +1,88 @@
+{
+    "user" : "lillo",
+    "bought" : 0,
+    "start" : 1529272800,
+    "end" : 1529877599,
+    "archive" : [
+        {
+            "time" : 1529332303,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.664663, 
+                    45.078285
+                ]
+            }
+        },
+        {
+            "time" : 1529343103,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.668912, 
+                    45.075206
+                ]
+            }
+        },
+        {
+            "time" : 1529429503,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.657041, 
+                    45.07594
+                ]
+            }
+        },
+        {
+            "time" : 1529577103,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.670903, 
+                    45.07743
+                ]
+            }
+        },
+        {
+            "time" : 1529587903,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.666685, 
+                    45.072056
+                ]
+            }
+        },
+        {
+            "time" : 1529659903,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.672937, 
+                    45.066791
+                ]
+            }
+        },
+        {
+            "time" : 1529782303,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.683408, 
+                    45.066579
+                ]
+            }
+        },
+        {
+            "time" : 1529875903,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.6791, 
+                    45.065337
+                ]
+            }
+        }
+    ]
+}

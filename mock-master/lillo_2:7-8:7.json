@@ -1,0 +1,49 @@
+{
+    "user" : "lillo",
+    "bought" : 0,
+    "start" : 1530482400,
+    "end" : 1531087199,
+    "archive" : [
+        {
+            "time" : 1530521476,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.673906, 
+                    45.049835
+                ]
+            }
+        },
+        {
+            "time" : 1530540000,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.665795, 
+                    45.049895
+                ]
+            }
+        },
+        {
+            "time" : 1530619200,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.653187, 
+                    45.06315
+                ]
+            }
+        },
+        {
+            "time" : 1530812585,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.659968, 
+                    45.064665
+                ]
+            }
+        },
+       
+    ]
+}

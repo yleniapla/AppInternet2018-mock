@@ -1,0 +1,68 @@
+{
+    "user" : "cventr",
+    "bought" : 0,
+    "start" : 1530482400,
+    "end" : 1531087199,
+    "archive" : [
+        {
+            "time" : 1530433200,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.656577, 
+                    45.066938
+                ]
+            }
+        },
+        {
+            "time" : 1530444403,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.658724, 
+                    45.062505
+                ]
+            }
+        },
+        {
+            "time" : 1530478003,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.670180, 
+                    45.065904
+                ]
+            }
+        },
+        {
+            "time" : 1530515832,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.636512, 
+                    45.075254
+                ]
+            }
+        },
+        {
+            "time" : 1530549032,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.626390, 
+                    45.072564
+                ]
+            }
+        },
+        {
+            "time" : 1530582632,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.629153, 
+                    45.068983
+                ]
+            }
+        }
+    ]
+}

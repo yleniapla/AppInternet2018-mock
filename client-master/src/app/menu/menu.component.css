@@ -1,0 +1,19 @@
+.el {
+	display: inline-block;
+	padding-right: 10px;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+
+#menu{
+	padding: 10px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background-color: #007bffd9;
+    width: 100%;
+    color: #fafafb;
+    font-size: 15px;
+	text-align: right;
+}

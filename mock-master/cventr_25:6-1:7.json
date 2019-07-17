@@ -1,0 +1,108 @@
+{
+    "user" : "cventr",
+    "bought" : 0,
+    "start" : 1529877600,
+    "end" : 1530482399,
+    "archive" : [
+        {
+            "time" : 1529906445,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.663321, 
+                    45.051225
+                ]
+            }
+        },
+        {
+            "time" : 1529927045,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.659136, 
+                    45.052364
+                ]
+            }
+        },
+        {
+            "time" : 1529947766,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.658034, 
+                    45.055686
+                ]
+            }
+        },
+        {
+            "time" : 1530105766,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.677818, 
+                    45.070175
+                ]
+            }
+        },
+        {
+            "time" : 1531120736,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.689234, 
+                    45.068751
+                ]
+            }
+        },
+        {
+            "time" : 1534220336,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.686449, 
+                    45.055883
+                ]
+            }
+        },
+        {
+            "time" : 1537238336,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.677246, 
+                    45.054579
+                ]
+            }
+        },
+        {
+            "time" : 1542267136,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.664892, 
+                    45.051655
+                ]
+            }
+        },
+        {
+            "time" : 1555353536,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.663271, 
+                    45.062117
+                ]
+            }
+        },
+        {
+            "time" : 1558451516,
+            "point" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    7.659185, 
+                    45.064548
+                ]
+            }
+        }
+    ]
+}
